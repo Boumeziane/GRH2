@@ -15,4 +15,8 @@ public class AuthResponse {
     private String username;
     private Role role;
     private String token; // si tu utilises JWT, sinon tu peux ignorer
+
+    public AuthResponse(String token) {
+        this.token = token;
+    }
 }
