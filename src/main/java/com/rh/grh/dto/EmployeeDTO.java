@@ -16,6 +16,7 @@ public class EmployeeDTO {
     private String email;
     private String poste;
     private LocalDate dateEmbauche;
+    private  String department;
 
     // On expose uniquement l'ID du compte lié (et pas tout l'objet Account)
     private Long accountId;
